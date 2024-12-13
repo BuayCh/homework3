@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  color: whitesmoke;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Header */
+.head {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.home {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Main Content */
+.main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.middle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.progressbar {
+  width: 100%;
+  height: 8px;
+  background: whitesmoke;
+  border-radius: 6px;
+  margin: 15px
+  overflow: hidden;
+  position: relative;
+}
+
+.progressbar .progress {
+  display: block;
+  height: 100%;
+  background: #4caf50;
+  transition: width 0.5s;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.notify {
+  background-color: #4caf50;
+  color: whitesmoke;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+/* Social Icons */
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+}
+
